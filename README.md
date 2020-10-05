@@ -1,6 +1,6 @@
 # PepsiWebsite
-Idea del sitio Web de Pepsi Responsive 
+Idea del sitio Web Responsive de Pepsi del canal  de Youtube Online Tutorials
 
-[Ver](https://upa-upz.github.io/ReloJS/)
+[Ver Pagina](https://upa-upz.github.io/PepsiWebsite/)
 
 ![website de pepsi](/assets/img/preview.png)
