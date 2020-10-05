@@ -1,5 +1,5 @@
 # PepsiWebsite
-Idea del sitio Web Responsive de Pepsi del canal  de Youtube Online Tutorials
+Idea del sitio Web Responsive de Pepsi 
 
 [Ver Pagina](https://upa-upz.github.io/PepsiWebsite/)
 
