@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <section class="sec">
+        <header class="header">
+            <a href="#"><img src="./assets/img/logo.png" class="logo"></a>
+            <div class="toggleMenu" onclick="menuToggle()"></div>
+            <ul class="list__container"> 
+                <li class="list__item"><a class="list__link" href="#">Home</a></li>
+                <li class="list__item"><a class="list__link" href="#">Products</a></li>
+                <li class="list__item"><a class="list__link" href="#">what 's New</a></li>
+                <li class="list__item"><a class="list__link" href="#">Newsletter</a></li>
+                <li class="list__item"><a class="list__link" href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2 class="h2">That's New <br><span class="span">I likes</span></h2>
+                <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit culpa magni officia ab natus laboriosam vitae commodi adipisci soluta impedit, dolorem nam officiis eveniet tempore aperiam eaque eligendi ratione ut!</p>
+                <a href="#" class="textBox__link">View all Produtcs</a>
+            </div>
+            <div class="imgBox">
+                <img src="./assets/img/pepsi001.png" class="pepsi">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li class="thumb__item"><img src="./assets/img/pepsi001.png" onclick="imgSlider('./assets/img/pepsi001.png');changeBgColor('#0062be')" class="thumb__img"></li>
+            <li class="thumb__item"><img src="./assets/img/pepsi002.png" onclick="imgSlider('./assets/img/pepsi002.png');changeBgColor('#e60c2c')" class="thumb__img"></li>
+            <li class="thumb__item"><img src="./assets/img/pepsi003.png" onclick="imgSlider('./assets/img/pepsi003.png');changeBgColor('#1e1e1e')" class="thumb__img"></li>
+        </ul>
+        <ul class="socialMedia">
+            <li class="socialMedia__item"><a class="socialMedia__link" href="#"><img src="./assets/img/facebook.png"></a></li>
+            <li class="socialMedia__item"><a class="socialMedia__link"href="#"><img src="./assets/img/twitter.png"></a></li>
+            <li class="socialMedia__item"><a class="socialMedia__link"href="#"><img src="./assets/img/instagram.png"></a></li>
+        </ul>
+    </section>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
